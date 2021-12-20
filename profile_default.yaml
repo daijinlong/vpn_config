@@ -1,0 +1,1794 @@
+#!MANAGED-CONFIG https://dy.wmyun.men/link/I2XQUKxIdJS61Og6?clash=1
+
+#---------------------------------------------------#
+## 上次更新于：2021-11-25 11:19:25
+#---------------------------------------------------#
+
+port: 7890
+socks-port: 7891
+redir-port: 7892
+allow-lan: false
+mode: Rule
+log-level: silent
+external-controller: '0.0.0.0:9090'
+secret: ''
+proxies:
+  -
+    name: ABC-×2.6
+    type: vmess
+    server: abc-zz.ddns.566366.xyz
+    port: 10193
+    uuid: 3c32c3b7-329e-3222-9f0d-923964337c32
+    alterId: 1
+    cipher: auto
+    udp: true
+    network: ws
+    ws-path: /wmsxwd
+    ws-headers:
+      Host: abczz.ddns.566366.xyz
+  -
+    name: a俄罗斯02-ZZ-×2.5
+    type: vmess
+    server: ttk02zz.ddns.566366.xyz
+    port: 20001
+    uuid: 3c32c3b7-329e-3222-9f0d-923964337c32
+    alterId: 1
+    cipher: auto
+    udp: true
+    network: ws
+    ws-path: /wmsxwd
+    ws-headers:
+      Host: ttk02.ddns.566366.xyz
+  -
+    name: 俄罗斯01-直连-×0.1
+    type: vmess
+    server: ru01-just-50.ddns.566366.xyz
+    port: 10212
+    uuid: 3c32c3b7-329e-3222-9f0d-923964337c32
+    alterId: 1
+    cipher: auto
+    udp: true
+    network: ws
+    ws-path: /wmsxwd
+    ws-headers:
+      Host: ru01-just-50.ddns.566366.xyz
+  -
+    name: 俄罗斯03-ZZ-×2.5
+    type: vmess
+    server: rus03-zz.ddns.566366.xyz
+    port: 20003
+    uuid: 3c32c3b7-329e-3222-9f0d-923964337c32
+    alterId: 1
+    cipher: auto
+    udp: true
+    network: ws
+    ws-path: /download
+    ws-headers:
+      Host: rus03zz.ddns.566366.xyz
+  -
+    name: 俄罗斯04-ZZ-×2
+    type: vmess
+    server: ru04-zz.ddns.566366.xyz
+    port: 10213
+    uuid: 3c32c3b7-329e-3222-9f0d-923964337c32
+    alterId: 1
+    cipher: auto
+    udp: true
+    network: ws
+    ws-path: /wmsxwd
+    ws-headers:
+      Host: ru04zz.ddns.566366.xyz
+  -
+    name: 印度01-ZZ-×2.5
+    type: vmess
+    server: in01-zz.ddns.177588.xyz
+    port: 20234
+    uuid: 3c32c3b7-329e-3222-9f0d-923964337c32
+    alterId: 1
+    cipher: auto
+    udp: true
+    network: ws
+    ws-path: /download
+    ws-headers:
+      Host: in01zz.ddns.177588.xyz
+  -
+    name: 台湾01-HiNet-×1
+    type: vmess
+    server: tw.566366.xyz
+    port: 545
+    uuid: 3c32c3b7-329e-3222-9f0d-923964337c32
+    alterId: 1
+    cipher: auto
+    udp: true
+    network: ws
+    ws-path: /wmsxwd
+    ws-headers:
+      Host: tw.566366.xyz
+  -
+    name: 台湾02-HiNet-×1
+    type: vmess
+    server: tw-2-50.ddns.566366.xyz
+    port: 545
+    uuid: 3c32c3b7-329e-3222-9f0d-923964337c32
+    alterId: 0
+    cipher: auto
+    udp: true
+    network: ws
+    ws-path: /wmsxwd
+    ws-headers:
+      Host: tw-2-50.ddns.566366.xyz
+  -
+    name: 台湾03-HiNet-×1
+    type: vmess
+    server: tw-3-50.ddns.566366.xyz
+    port: 545
+    uuid: 3c32c3b7-329e-3222-9f0d-923964337c32
+    alterId: 1
+    cipher: auto
+    udp: true
+    network: ws
+    ws-path: /wmsxwd
+    ws-headers:
+      Host: tw-3-50.ddns.566366.xyz
+  -
+    name: 台湾04-HiNet-×1
+    type: vmess
+    server: tw-4-50.ddns.566366.xyz
+    port: 10214
+    uuid: 3c32c3b7-329e-3222-9f0d-923964337c32
+    alterId: 0
+    cipher: auto
+    udp: true
+    network: ws
+    ws-path: /wmsxwd
+    ws-headers:
+      Host: tw-4-50.ddns.566366.xyz
+  -
+    name: 土耳其-×3-特殊用途-请使用其他节点
+    type: vmess
+    server: tr.ddns.177588.xyz
+    port: 20110
+    uuid: 3c32c3b7-329e-3222-9f0d-923964337c32
+    alterId: 1
+    cipher: auto
+    udp: true
+    network: ws
+    ws-path: /wmsxwd
+    ws-headers:
+      Host: tr.ddns.177588.xyz
+  -
+    name: 新加坡59-ZZ-×2.5
+    type: vmess
+    server: sg59-zz.ddns.566366.xyz
+    port: 16059
+    uuid: 3c32c3b7-329e-3222-9f0d-923964337c32
+    alterId: 1
+    cipher: auto
+    udp: true
+    network: ws
+    ws-path: /wmsxwd
+    ws-headers:
+      Host: sg59zz.ddns.566366.xyz
+  -
+    name: 新加坡60-ZZ-×3
+    type: vmess
+    server: sgzz01-linode.ddns.566366.xyz
+    port: 901
+    uuid: 3c32c3b7-329e-3222-9f0d-923964337c32
+    alterId: 0
+    cipher: auto
+    udp: true
+    network: ws
+    ws-path: /wmsxwd
+    ws-headers:
+      Host: sgld.ddns.566366.xyz
+  -
+    name: 新加坡61-ZZ-×3
+    type: vmess
+    server: sgzz02-linode.ddns.566366.xyz
+    port: 902
+    uuid: 3c32c3b7-329e-3222-9f0d-923964337c32
+    alterId: 0
+    cipher: auto
+    udp: true
+    network: ws
+    ws-path: /wmsxwd
+    ws-headers:
+      Host: sgld.ddns.566366.xyz
+  -
+    name: 新加坡62-ZZ-×3
+    type: vmess
+    server: sg62-v2-zz.ddns.177588.xyz
+    port: 662
+    uuid: 3c32c3b7-329e-3222-9f0d-923964337c32
+    alterId: 0
+    cipher: auto
+    udp: true
+    network: ws
+    ws-path: /wmsxwd
+    ws-headers:
+      Host: sg62-v2.ddns.177588.xyz
+  -
+    name: 新加坡63-ZZ-×3
+    type: vmess
+    server: sg63-v2-zz.ddns.177588.xyz
+    port: 663
+    uuid: 3c32c3b7-329e-3222-9f0d-923964337c32
+    alterId: 0
+    cipher: auto
+    udp: true
+    network: ws
+    ws-path: /wmsxwd
+    ws-headers:
+      Host: sg63-v2.ddns.177588.xyz
+  -
+    name: 新加坡64-ZZ-×2.5
+    type: vmess
+    server: sg64-zz.ddns.566366.xyz
+    port: 19900
+    uuid: 3c32c3b7-329e-3222-9f0d-923964337c32
+    alterId: 1
+    cipher: auto
+    udp: true
+    network: ws
+    ws-path: /wmsxwd
+    ws-headers:
+      Host: hgc.ddns.566366.xyz
+  -
+    name: 新加坡70-ZZ-×2.5
+    type: vmess
+    server: sg70-zz.ddns.177588.xyz
+    port: 10242
+    uuid: 3c32c3b7-329e-3222-9f0d-923964337c32
+    alterId: 0
+    cipher: auto
+    udp: true
+    network: ws
+    ws-path: /download
+    ws-headers:
+      Host: sg70zz.ddns.177588.xyz
+  -
+    name: 新加坡71-ZZ-×2.5
+    type: vmess
+    server: v50-sg-64-zz.ddns.177588.xyz
+    port: 864
+    uuid: 3c32c3b7-329e-3222-9f0d-923964337c32
+    alterId: 0
+    cipher: auto
+    udp: true
+    network: ws
+    ws-path: /download
+    ws-headers:
+      Host: v50-sg-64.ddns.177588.xyz
+  -
+    name: 新加坡72-ZZ-×2.5
+    type: vmess
+    server: sg72-zz.ddns.177588.xyz
+    port: 10127
+    uuid: 3c32c3b7-329e-3222-9f0d-923964337c32
+    alterId: 1
+    cipher: auto
+    udp: true
+    network: ws
+    ws-path: /download
+    ws-headers:
+      Host: sg72zz.ddns.177588.xyz
+  -
+    name: 新加坡73-ZZ-×2.5
+    type: vmess
+    server: sg73-zz.ddns.177588.xyz
+    port: 10238
+    uuid: 3c32c3b7-329e-3222-9f0d-923964337c32
+    alterId: 1
+    cipher: auto
+    udp: true
+    network: ws
+    ws-path: /download
+    ws-headers:
+      Host: sg73zz.ddns.177588.xyz
+  -
+    name: 新加坡74-ZZ-×2.5
+    type: vmess
+    server: 90lisui.ddns.566366.xyz
+    port: 1101
+    uuid: 3c32c3b7-329e-3222-9f0d-923964337c32
+    alterId: 0
+    cipher: auto
+    udp: true
+    network: ws
+    ws-path: /wmsxwd
+    ws-headers:
+      Host: 90lisui.ddns.566366.xyz
+  -
+    name: 新加坡75-ZZ-×2.5
+    type: vmess
+    server: sg75-zz.ddns.177588.xyz
+    port: 10233
+    uuid: 3c32c3b7-329e-3222-9f0d-923964337c32
+    alterId: 1
+    cipher: auto
+    udp: true
+    network: ws
+    ws-path: /wmsxwd
+    ws-headers:
+      Host: sg75zz.ddns.177588.xyz
+  -
+    name: 日本01-GMO-×0.9
+    type: vmess
+    server: iij.wmsxwd.xyz
+    port: 80
+    uuid: 3c32c3b7-329e-3222-9f0d-923964337c32
+    alterId: 0
+    cipher: auto
+    udp: true
+    network: ws
+    ws-path: /wmsxwd
+    ws-headers:
+      Host: iij.wmsxwd.xyz
+  -
+    name: 日本02-GMO-×1
+    type: vmess
+    server: gmov201.ddns.566366.xyz
+    port: 10137
+    uuid: 3c32c3b7-329e-3222-9f0d-923964337c32
+    alterId: 1
+    cipher: auto
+    udp: true
+    network: ws
+    ws-path: /wmsxwd
+    ws-headers:
+      Host: gmov201.ddns.566366.xyz
+  -
+    name: 日本03-GMO-×1
+    type: vmess
+    server: gmov202.wmsxwd5.xyz
+    port: 10075
+    uuid: 3c32c3b7-329e-3222-9f0d-923964337c32
+    alterId: 1
+    cipher: auto
+    udp: true
+    network: ws
+    ws-path: /v2ray
+    ws-headers:
+      Host: gmov202.wmsxwd5.xyz
+  -
+    name: 日本04-CDN-支持IPV6
+    type: vmess
+    server: v2raydjcdn.wmsxwd5.xyz
+    port: 443
+    uuid: 3c32c3b7-329e-3222-9f0d-923964337c32
+    alterId: 2
+    cipher: auto
+    udp: true
+    network: ws
+    ws-path: /v2ray
+    ws-headers:
+      Host: v2raydjcdn.wmsxwd5.xyz
+    tls: true
+  -
+    name: 日本05-GMO-×1
+    type: vmess
+    server: jp05-gmo-50.ddns.566366.xyz
+    port: 10208
+    uuid: 3c32c3b7-329e-3222-9f0d-923964337c32
+    alterId: 1
+    cipher: auto
+    udp: true
+    network: ws
+    ws-path: /wmsxwd
+    ws-headers:
+      Host: jp05-gmo-50.ddns.566366.xyz
+  -
+    name: 日本09-IDCF-×1
+    type: vmess
+    server: v2ray02.ddns.566366.xyz
+    port: 80
+    uuid: 3c32c3b7-329e-3222-9f0d-923964337c32
+    alterId: 0
+    cipher: auto
+    udp: true
+    network: ws
+    ws-path: /wmsxwd
+    ws-headers:
+      Host: v2ray02.ddns.566366.xyz
+  -
+    name: 日本10-SAK-×0.1
+    type: vmess
+    server: jp16-sak-50.ddns.566366.xyz
+    port: 10229
+    uuid: 3c32c3b7-329e-3222-9f0d-923964337c32
+    alterId: 1
+    cipher: auto
+    udp: true
+    network: ws
+    ws-path: /wmsxwd
+    ws-headers:
+      Host: jp16-sak-50.ddns.566366.xyz
+  -
+    name: 日本49-ZZ-×2.5
+    type: vmess
+    server: jp49-zz.ddns.566366.xyz
+    port: 13999
+    uuid: 3c32c3b7-329e-3222-9f0d-923964337c32
+    alterId: 1
+    cipher: auto
+    udp: true
+    network: ws
+    ws-path: /wmsxwd
+    ws-headers:
+      Host: jp49zz.ddns.566366.xyz
+  -
+    name: 日本50-ZZ-×2.5
+    type: vmess
+    server: jp50-zz.ddns.566366.xyz
+    port: 14000
+    uuid: 3c32c3b7-329e-3222-9f0d-923964337c32
+    alterId: 1
+    cipher: auto
+    udp: true
+    network: ws
+    ws-path: /wmsxwd
+    ws-headers:
+      Host: jp50zz.ddns.566366.xyz
+  -
+    name: 日本51-ZZ-×2.5
+    type: vmess
+    server: jp51-zz.ddns.566366.xyz
+    port: 14001
+    uuid: 3c32c3b7-329e-3222-9f0d-923964337c32
+    alterId: 1
+    cipher: auto
+    udp: true
+    network: ws
+    ws-path: /wmsxwd
+    ws-headers:
+      Host: jp51zz.ddns.566366.xyz
+  -
+    name: 日本52-ZZ-×2.5
+    type: vmess
+    server: jp52-zz.ddns.566366.xyz
+    port: 14002
+    uuid: 3c32c3b7-329e-3222-9f0d-923964337c32
+    alterId: 1
+    cipher: auto
+    udp: true
+    network: ws
+    ws-path: /wmsxwd
+    ws-headers:
+      Host: jp52zz.ddns.566366.xyz
+  -
+    name: 日本60-ZZ-NTT-×3
+    type: vmess
+    server: ntt100zz.ddns.wmsxwd5.xyz
+    port: 59990
+    uuid: 3c32c3b7-329e-3222-9f0d-923964337c32
+    alterId: 0
+    cipher: auto
+    udp: true
+    network: ws
+    ws-path: /wmsxwd
+    ws-headers:
+      Host: ntt100.ddns.wmsxwd5.xyz
+  -
+    name: 日本61-ZZ-NTT-×3
+    type: vmess
+    server: jp61zz.ddns.566366.xyz
+    port: 20002
+    uuid: 3c32c3b7-329e-3222-9f0d-923964337c32
+    alterId: 0
+    cipher: auto
+    udp: true
+    network: ws
+    ws-path: /wmsxwd
+    ws-headers:
+      Host: jp61.ddns.566366.xyz
+  -
+    name: 日本62-ZZ-NTT-×3
+    type: vmess
+    server: jp62zz.ddns.566366.xyz
+    port: 10098
+    uuid: 3c32c3b7-329e-3222-9f0d-923964337c32
+    alterId: 0
+    cipher: auto
+    udp: true
+    network: ws
+    ws-path: /wmsxwd
+    ws-headers:
+      Host: jp62.ddns.566366.xyz
+  -
+    name: 日本63-ZZ-NTT-×3
+    type: vmess
+    server: jp63zz.ddns.566366.xyz
+    port: 10099
+    uuid: 3c32c3b7-329e-3222-9f0d-923964337c32
+    alterId: 0
+    cipher: auto
+    udp: true
+    network: ws
+    ws-path: /wmsxwd
+    ws-headers:
+      Host: jp63.ddns.566366.xyz
+  -
+    name: 日本64-ZZ-×1.9
+    type: vmess
+    server: jp64-zz.ddns.177588.xyz
+    port: 10181
+    uuid: 3c32c3b7-329e-3222-9f0d-923964337c32
+    alterId: 1
+    cipher: auto
+    udp: true
+    network: ws
+    ws-path: /download
+    ws-headers:
+      Host: jp64zz.ddns.177588.xyz
+  -
+    name: 日本65-ZZ-×1.9
+    type: vmess
+    server: jp65-zz.ddns.177588.xyz
+    port: 10182
+    uuid: 3c32c3b7-329e-3222-9f0d-923964337c32
+    alterId: 1
+    cipher: auto
+    udp: true
+    network: ws
+    ws-path: /download
+    ws-headers:
+      Host: jp65zz.ddns.177588.xyz
+  -
+    name: 日本66-ZZ-×1.9
+    type: vmess
+    server: jp66-zz.ddns.177588.xyz
+    port: 10178
+    uuid: 3c32c3b7-329e-3222-9f0d-923964337c32
+    alterId: 1
+    cipher: auto
+    udp: true
+    network: ws
+    ws-path: /download
+    ws-headers:
+      Host: jp66zz.ddns.177588.xyz
+  -
+    name: 日本67-ZZ-×1.9
+    type: vmess
+    server: jp67-zz.ddns.177588.xyz
+    port: 10206
+    uuid: 3c32c3b7-329e-3222-9f0d-923964337c32
+    alterId: 1
+    cipher: auto
+    udp: true
+    network: ws
+    ws-path: /download
+    ws-headers:
+      Host: jp67zz.ddns.177588.xyz
+  -
+    name: 日本68-ZZ-×2.5
+    type: vmess
+    server: jp68zz.ddns.566366.xyz
+    port: 15001
+    uuid: 3c32c3b7-329e-3222-9f0d-923964337c32
+    alterId: 1
+    cipher: auto
+    udp: true
+    network: ws
+    ws-path: /wmsxwd
+    ws-headers:
+      Host: jp68.ddns.566366.xyz
+  -
+    name: 电信专用-×2.5-测试
+    type: vmess
+    server: dxv2-1-50.ddns.566366.xyz
+    port: 10196
+    uuid: 3c32c3b7-329e-3222-9f0d-923964337c32
+    alterId: 1
+    cipher: auto
+    udp: true
+    network: ws
+    ws-path: /vvv
+    ws-headers:
+      Host: dxv2-1-50.ddns.566366.xyz
+  -
+    name: 移动专用-测试-×2.5
+    type: vmess
+    server: cmyh.ddns.566366.xyz
+    port: 10090
+    uuid: 3c32c3b7-329e-3222-9f0d-923964337c32
+    alterId: 1
+    cipher: auto
+    udp: true
+    network: ws
+    ws-path: /wmsxwd
+    ws-headers:
+      Host: cmyh.ddns.566366.xyz
+  -
+    name: 美国01-GIA-×2.5
+    type: vmess
+    server: ua-he-50.ddns.566366.xyz
+    port: 443
+    uuid: 3c32c3b7-329e-3222-9f0d-923964337c32
+    alterId: 2
+    cipher: auto
+    udp: true
+    network: ws
+    ws-path: /wmsxwd
+    ws-headers:
+      Host: ua-he-50.ddns.566366.xyz
+  -
+    name: 美国02-GIA-×2.5
+    type: vmess
+    server: ua02-v2-50.ddns.566366.xyz
+    port: 10226
+    uuid: 3c32c3b7-329e-3222-9f0d-923964337c32
+    alterId: 1
+    cipher: auto
+    udp: true
+    network: ws
+    ws-path: /vvv
+    ws-headers:
+      Host: ua02-v2-50.ddns.566366.xyz
+  -
+    name: 美国03-GIA-×2.5
+    type: vmess
+    server: ua60-v2-60.ddns.566366.xyz
+    port: 10228
+    uuid: 3c32c3b7-329e-3222-9f0d-923964337c32
+    alterId: 1
+    cipher: auto
+    udp: true
+    network: ws
+    ws-path: /wmsxwd
+    ws-headers:
+      Host: ua60-v2-60.ddns.566366.xyz
+  -
+    name: 美国06-GIA-×2.5
+    type: vmess
+    server: giav2-200-601.ddns.566366.xyz
+    port: 10203
+    uuid: 3c32c3b7-329e-3222-9f0d-923964337c32
+    alterId: 1
+    cipher: auto
+    udp: true
+    network: ws
+    ws-path: /wmsxwd
+    ws-headers:
+      Host: giav2-200-601.ddns.566366.xyz
+  -
+    name: 美国10-ZZ-×2.5
+    type: vmess
+    server: ua10-zz.ddns.566366.xyz
+    port: 10231
+    uuid: 3c32c3b7-329e-3222-9f0d-923964337c32
+    alterId: 1
+    cipher: auto
+    udp: true
+    network: ws
+    ws-path: /wmsxwd
+    ws-headers:
+      Host: ua10zz.ddns.566366.xyz
+  -
+    name: 美国11-GIA-×2.5
+    type: vmess
+    server: ua11.ddns.566366.xyz
+    port: 10232
+    uuid: 3c32c3b7-329e-3222-9f0d-923964337c32
+    alterId: 1
+    cipher: auto
+    udp: true
+    network: ws
+    ws-path: /wmsxwd
+    ws-headers:
+      Host: ua11.ddns.566366.xyz
+  -
+    name: 美国20-ZZ测试-×2
+    type: vmess
+    server: ua20-zz.ddns.177588.xyz
+    port: 10230
+    uuid: 3c32c3b7-329e-3222-9f0d-923964337c32
+    alterId: 1
+    cipher: auto
+    udp: true
+    network: ws
+    ws-path: /wmsxwd
+    ws-headers:
+      Host: ua20zz.ddns.177588.xyz
+  -
+    name: 美国21-ZZ-×2.5
+    type: vmess
+    server: ua21-zz.ddns.566366.xyz
+    port: 10236
+    uuid: 3c32c3b7-329e-3222-9f0d-923964337c32
+    alterId: 1
+    cipher: auto
+    udp: true
+    network: ws
+    ws-path: /wmsxwd
+    ws-headers:
+      Host: ua21zz.ddns.566366.xyz
+  -
+    name: 菲律宾02-ZZ-IPC-×2.5
+    type: vmess
+    server: lt500.ddns.566366.xyz
+    port: 10097
+    uuid: 3c32c3b7-329e-3222-9f0d-923964337c32
+    alterId: 0
+    cipher: auto
+    udp: true
+    network: ws
+    ws-path: /wmsxwd
+    ws-headers:
+      Host: ipc-1-50.ddns.566366.xyz
+  -
+    name: 香港02-ZZ-×3
+    type: vmess
+    server: hk02.ddns.566366.xyz
+    port: 10190
+    uuid: 3c32c3b7-329e-3222-9f0d-923964337c32
+    alterId: 1
+    cipher: auto
+    udp: true
+    network: ws
+    ws-path: /wmsxwd
+    ws-headers:
+      Host: hk02-zz.ddns.566366.xyz
+  -
+    name: 香港03-HKT-×1
+    type: vmess
+    server: agaz.ddns.566366.xyz
+    port: 10247
+    uuid: 3c32c3b7-329e-3222-9f0d-923964337c32
+    alterId: 1
+    cipher: auto
+    udp: true
+    network: ws
+    ws-path: /wmsxwd
+    ws-headers:
+      Host: hk03.ddns.566366.xyz
+  -
+    name: 香港04-HKBGP-×0.9
+    type: vmess
+    server: dzhkt.ddns.357159.xyz
+    port: 10093
+    uuid: 3c32c3b7-329e-3222-9f0d-923964337c32
+    alterId: 0
+    cipher: auto
+    udp: true
+    network: ws
+    ws-path: /wmsxwd
+    ws-headers:
+      Host: dzhkt.ddns.357159.xyz
+  -
+    name: 香港05-HKBGP-×1
+    type: vmess
+    server: hkt35.ddns.566366.xyz
+    port: 10097
+    uuid: 3c32c3b7-329e-3222-9f0d-923964337c32
+    alterId: 0
+    cipher: auto
+    udp: true
+    network: ws
+    ws-path: /wmsxwd
+    ws-headers:
+      Host: hkt35.ddns.566366.xyz
+  -
+    name: 香港06-HKBGP-×0.9
+    type: vmess
+    server: hk31.ddns.566366.xyz
+    port: 10184
+    uuid: 3c32c3b7-329e-3222-9f0d-923964337c32
+    alterId: 1
+    cipher: auto
+    udp: true
+    network: ws
+    ws-path: /wmsxwd
+    ws-headers:
+      Host: hk31.ddns.566366.xyz
+proxy-groups:
+  -
+    name: 🇺🇸美国
+    type: select
+    proxies:
+      - 美国06-GIA-×2.5
+      - 美国10-ZZ-×2.5
+      - 美国11-GIA-×2.5
+      - 美国20-ZZ测试-×2
+      - 美国21-ZZ-×2.5
+      - 美国01-GIA-×2.5
+      - 美国02-GIA-×2.5
+      - 美国03-GIA-×2.5
+  -
+    name: 🇸🇬新加坡
+    type: select
+    proxies:
+      - ABC-×2.6
+      - 新加坡59-ZZ-×2.5
+      - 新加坡60-ZZ-×3
+      - 新加坡61-ZZ-×3
+      - 新加坡62-ZZ-×3
+      - 新加坡63-ZZ-×3
+      - 新加坡64-ZZ-×2.5
+      - 新加坡70-ZZ-×2.5
+      - 新加坡71-ZZ-×2.5
+      - 新加坡72-ZZ-×2.5
+      - 新加坡73-ZZ-×2.5
+      - 新加坡74-ZZ-×2.5
+      - 新加坡75-ZZ-×2.5
+  -
+    name: 🇯🇵日本
+    type: select
+    proxies:
+      - 日本01-GMO-×0.9
+      - 日本02-GMO-×1
+      - 日本03-GMO-×1
+      - 日本04-CDN-支持IPV6
+      - 日本05-GMO-×1
+      - 日本09-IDCF-×1
+      - 日本10-SAK-×0.1
+      - 日本49-ZZ-×2.5
+      - 日本50-ZZ-×2.5
+      - 日本51-ZZ-×2.5
+      - 日本52-ZZ-×2.5
+      - 日本60-ZZ-NTT-×3
+      - 日本61-ZZ-NTT-×3
+      - 日本62-ZZ-NTT-×3
+      - 日本63-ZZ-NTT-×3
+      - 日本64-ZZ-×1.9
+      - 日本65-ZZ-×1.9
+      - 日本66-ZZ-×1.9
+      - 日本67-ZZ-×1.9
+      - 日本68-ZZ-×2.5
+  -
+    name: 🇷🇺俄罗斯
+    type: select
+    proxies:
+      - a俄罗斯02-ZZ-×2.5
+      - 俄罗斯01-直连-×0.1
+      - 俄罗斯03-ZZ-×2.5
+      - 俄罗斯04-ZZ-×2
+  -
+    name: 🇮🇳印度
+    type: select
+    proxies:
+      - 印度01-ZZ-×2.5
+  -
+    name: 🇵🇭菲律宾
+    type: select
+    proxies:
+      - 菲律宾02-ZZ-IPC-×2.5
+  -
+    name: 🇨🇳台湾
+    type: select
+    proxies:
+      - 台湾01-HiNet-×1
+      - 台湾02-HiNet-×1
+      - 台湾03-HiNet-×1
+      - 台湾04-HiNet-×1
+  -
+    name: 🇨🇳香港
+    type: select
+    proxies:
+      - 香港02-ZZ-×3
+      - 香港03-HKT-×1
+      - 香港04-HKBGP-×0.9
+      - 香港05-HKBGP-×1
+      - 香港06-HKBGP-×0.9
+  -
+    name: 所有服务器
+    type: select
+    proxies:
+      - 🇺🇸美国
+      - 🇸🇬新加坡
+      - 🇯🇵日本
+      - 🇷🇺俄罗斯
+      - 🇮🇳印度
+      - 🇵🇭菲律宾
+      - 🇨🇳台湾
+      - 🇨🇳香港
+
+rules:
+  - DOMAIN-SUFFIX,smtp,DIRECT
+  - DOMAIN-KEYWORD,aria2,DIRECT
+
+  - DOMAIN-SUFFIX,ampproject.org,所有服务器
+  - DOMAIN-SUFFIX,appspot.com,所有服务器
+  - DOMAIN-SUFFIX,blogger.com,所有服务器
+  - DOMAIN-SUFFIX,getoutline.org,所有服务器
+  - DOMAIN-SUFFIX,gvt0.com,所有服务器
+  - DOMAIN-SUFFIX,gvt1.com,所有服务器
+  - DOMAIN-SUFFIX,gvt3.com,所有服务器
+  - DOMAIN-SUFFIX,xn--ngstr-lra8j.com,所有服务器
+  - DOMAIN-KEYWORD,google,所有服务器
+  - DOMAIN-KEYWORD,blogspot,所有服务器
+  - DOMAIN-SUFFIX,onedrive.live.com,所有服务器
+  - DOMAIN-SUFFIX,xboxlive.com,所有服务器
+  - DOMAIN-SUFFIX,cdninstagram.com,所有服务器
+  - DOMAIN-SUFFIX,fb.com,所有服务器
+  - DOMAIN-SUFFIX,fb.me,所有服务器
+  - DOMAIN-SUFFIX,fbaddins.com,所有服务器
+  - DOMAIN-SUFFIX,fbcdn.net,所有服务器
+  - DOMAIN-SUFFIX,fbsbx.com,所有服务器
+  - DOMAIN-SUFFIX,fbworkmail.com,所有服务器
+  - DOMAIN-SUFFIX,instagram.com,所有服务器
+  - DOMAIN-SUFFIX,m.me,所有服务器
+  - DOMAIN-SUFFIX,messenger.com,所有服务器
+  - DOMAIN-SUFFIX,oculus.com,所有服务器
+  - DOMAIN-SUFFIX,oculuscdn.com,所有服务器
+  - DOMAIN-SUFFIX,rocksdb.org,所有服务器
+  - DOMAIN-SUFFIX,whatsapp.com,所有服务器
+  - DOMAIN-SUFFIX,whatsapp.net,所有服务器
+  - DOMAIN-KEYWORD,facebook,所有服务器
+  - IP-CIDR,3.123.36.126/32,所有服务器,no-resolve
+  - IP-CIDR,35.157.215.84/32,所有服务器,no-resolve
+  - IP-CIDR,35.157.217.255/32,所有服务器,no-resolve
+  - IP-CIDR,52.58.209.134/32,所有服务器,no-resolve
+  - IP-CIDR,54.93.124.31/32,所有服务器,no-resolve
+  - IP-CIDR,54.162.243.80/32,所有服务器,no-resolve
+  - IP-CIDR,54.173.34.141/32,所有服务器,no-resolve
+  - IP-CIDR,54.235.23.242/32,所有服务器,no-resolve
+  - IP-CIDR,169.45.248.118/32,所有服务器,no-resolve
+  - DOMAIN-SUFFIX,pscp.tv,所有服务器
+  - DOMAIN-SUFFIX,periscope.tv,所有服务器
+  - DOMAIN-SUFFIX,t.co,所有服务器
+  - DOMAIN-SUFFIX,twimg.co,所有服务器
+  - DOMAIN-SUFFIX,twimg.com,所有服务器
+  - DOMAIN-SUFFIX,twitpic.com,所有服务器
+  - DOMAIN-SUFFIX,vine.co,所有服务器
+  - DOMAIN-KEYWORD,twitter,所有服务器
+  - DOMAIN-SUFFIX,t.me,所有服务器
+  - DOMAIN-SUFFIX,tdesktop.com,所有服务器
+  - DOMAIN-SUFFIX,telegra.ph,所有服务器
+  - DOMAIN-SUFFIX,telegram.me,所有服务器
+  - DOMAIN-SUFFIX,telegram.org,所有服务器
+  - IP-CIDR,91.108.4.0/22,所有服务器,no-resolve
+  - IP-CIDR,91.108.8.0/22,所有服务器,no-resolve
+  - IP-CIDR,91.108.12.0/22,所有服务器,no-resolve
+  - IP-CIDR,91.108.16.0/22,所有服务器,no-resolve
+  - IP-CIDR,91.108.56.0/22,所有服务器,no-resolve
+  - IP-CIDR,149.154.160.0/20,所有服务器,no-resolve
+  - IP-CIDR6,2001:b28:f23d::/48,所有服务器,no-resolve
+  - IP-CIDR6,2001:b28:f23f::/48,所有服务器,no-resolve
+  - IP-CIDR6,2001:67c:4e8::/48,所有服务器,no-resolve
+  - DOMAIN-SUFFIX,line.me,所有服务器
+  - DOMAIN-SUFFIX,line-apps.com,所有服务器
+  - DOMAIN-SUFFIX,line-scdn.net,所有服务器
+  - DOMAIN-SUFFIX,naver.jp,所有服务器
+  - IP-CIDR,103.2.30.0/23,所有服务器,no-resolve
+  - IP-CIDR,125.209.208.0/20,所有服务器,no-resolve
+  - IP-CIDR,147.92.128.0/17,所有服务器,no-resolve
+  - IP-CIDR,203.104.144.0/21,所有服务器,no-resolve
+  - DOMAIN-SUFFIX,4shared.com,所有服务器
+  - DOMAIN-SUFFIX,520cc.cc,所有服务器
+  - DOMAIN-SUFFIX,881903.com,所有服务器
+  - DOMAIN-SUFFIX,9cache.com,所有服务器
+  - DOMAIN-SUFFIX,9gag.com,所有服务器
+  - DOMAIN-SUFFIX,abc.com,所有服务器
+  - DOMAIN-SUFFIX,abc.net.au,所有服务器
+  - DOMAIN-SUFFIX,abebooks.com,所有服务器
+  - DOMAIN-SUFFIX,amazon.co.jp,所有服务器
+  - DOMAIN-SUFFIX,apigee.com,所有服务器
+  - DOMAIN-SUFFIX,apk-dl.com,所有服务器
+  - DOMAIN-SUFFIX,apkfind.com,所有服务器
+  - DOMAIN-SUFFIX,apkmirror.com,所有服务器
+  - DOMAIN-SUFFIX,apkmonk.com,所有服务器
+  - DOMAIN-SUFFIX,apkpure.com,所有服务器
+  - DOMAIN-SUFFIX,aptoide.com,所有服务器
+  - DOMAIN-SUFFIX,archive.is,所有服务器
+  - DOMAIN-SUFFIX,archive.org,所有服务器
+  - DOMAIN-SUFFIX,arte.tv,所有服务器
+  - DOMAIN-SUFFIX,artstation.com,所有服务器
+  - DOMAIN-SUFFIX,arukas.io,所有服务器
+  - DOMAIN-SUFFIX,ask.com,所有服务器
+  - DOMAIN-SUFFIX,avg.com,所有服务器
+  - DOMAIN-SUFFIX,avgle.com,所有服务器
+  - DOMAIN-SUFFIX,badoo.com,所有服务器
+  - DOMAIN-SUFFIX,bandwagonhost.com,所有服务器
+  - DOMAIN-SUFFIX,bbc.com,所有服务器
+  - DOMAIN-SUFFIX,behance.net,所有服务器
+  - DOMAIN-SUFFIX,bibox.com,所有服务器
+  - DOMAIN-SUFFIX,biggo.com.tw,所有服务器
+  - DOMAIN-SUFFIX,binance.com,所有服务器
+  - DOMAIN-SUFFIX,bitcointalk.org,所有服务器
+  - DOMAIN-SUFFIX,bitfinex.com,所有服务器
+  - DOMAIN-SUFFIX,bitmex.com,所有服务器
+  - DOMAIN-SUFFIX,bit-z.com,所有服务器
+  - DOMAIN-SUFFIX,bloglovin.com,所有服务器
+  - DOMAIN-SUFFIX,bloomberg.cn,所有服务器
+  - DOMAIN-SUFFIX,bloomberg.com,所有服务器
+  - DOMAIN-SUFFIX,blubrry.com,所有服务器
+  - DOMAIN-SUFFIX,book.com.tw,所有服务器
+  - DOMAIN-SUFFIX,booklive.jp,所有服务器
+  - DOMAIN-SUFFIX,books.com.tw,所有服务器
+  - DOMAIN-SUFFIX,boslife.net,所有服务器
+  - DOMAIN-SUFFIX,box.com,所有服务器
+  - DOMAIN-SUFFIX,businessinsider.com,所有服务器
+  - DOMAIN-SUFFIX,bwh1.net,所有服务器
+  - DOMAIN-SUFFIX,castbox.fm,所有服务器
+  - DOMAIN-SUFFIX,cbc.ca,所有服务器
+  - DOMAIN-SUFFIX,cdw.com,所有服务器
+  - DOMAIN-SUFFIX,change.org,所有服务器
+  - DOMAIN-SUFFIX,channelnewsasia.com,所有服务器
+  - DOMAIN-SUFFIX,ck101.com,所有服务器
+  - DOMAIN-SUFFIX,clarionproject.org,所有服务器
+  - DOMAIN-SUFFIX,clyp.it,所有服务器
+  - DOMAIN-SUFFIX,cna.com.tw,所有服务器
+  - DOMAIN-SUFFIX,comparitech.com,所有服务器
+  - DOMAIN-SUFFIX,conoha.jp,所有服务器
+  - DOMAIN-SUFFIX,crucial.com,所有服务器
+  - DOMAIN-SUFFIX,cts.com.tw,所有服务器
+  - DOMAIN-SUFFIX,cw.com.tw,所有服务器
+  - DOMAIN-SUFFIX,cyberctm.com,所有服务器
+  - DOMAIN-SUFFIX,dailymotion.com,所有服务器
+  - DOMAIN-SUFFIX,dailyview.tw,所有服务器
+  - DOMAIN-SUFFIX,daum.net,所有服务器
+  - DOMAIN-SUFFIX,daumcdn.net,所有服务器
+  - DOMAIN-SUFFIX,dcard.tw,所有服务器
+  - DOMAIN-SUFFIX,deepdiscount.com,所有服务器
+  - DOMAIN-SUFFIX,depositphotos.com,所有服务器
+  - DOMAIN-SUFFIX,deviantart.com,所有服务器
+  - DOMAIN-SUFFIX,disconnect.me,所有服务器
+  - DOMAIN-SUFFIX,discordapp.com,所有服务器
+  - DOMAIN-SUFFIX,discordapp.net,所有服务器
+  - DOMAIN-SUFFIX,disqus.com,所有服务器
+  - DOMAIN-SUFFIX,dlercloud.com,所有服务器
+  - DOMAIN-SUFFIX,dns2go.com,所有服务器
+  - DOMAIN-SUFFIX,dowjones.com,所有服务器
+  - DOMAIN-SUFFIX,dropbox.com,所有服务器
+  - DOMAIN-SUFFIX,dropboxusercontent.com,所有服务器
+  - DOMAIN-SUFFIX,duckduckgo.com,所有服务器
+  - DOMAIN-SUFFIX,dw.com,所有服务器
+  - DOMAIN-SUFFIX,dynu.com,所有服务器
+  - DOMAIN-SUFFIX,earthcam.com,所有服务器
+  - DOMAIN-SUFFIX,ebookservice.tw,所有服务器
+  - DOMAIN-SUFFIX,economist.com,所有服务器
+  - DOMAIN-SUFFIX,edgecastcdn.net,所有服务器
+  - DOMAIN-SUFFIX,edu,所有服务器
+  - DOMAIN-SUFFIX,elpais.com,所有服务器
+  - DOMAIN-SUFFIX,enanyang.my,所有服务器
+  - DOMAIN-SUFFIX,encyclopedia.com,所有服务器
+  - DOMAIN-SUFFIX,esoir.be,所有服务器
+  - DOMAIN-SUFFIX,etherscan.io,所有服务器
+  - DOMAIN-SUFFIX,euronews.com,所有服务器
+  - DOMAIN-SUFFIX,evozi.com,所有服务器
+  - DOMAIN-SUFFIX,feedly.com,所有服务器
+  - DOMAIN-SUFFIX,firech.at,所有服务器
+  - DOMAIN-SUFFIX,flickr.com,所有服务器
+  - DOMAIN-SUFFIX,flitto.com,所有服务器
+  - DOMAIN-SUFFIX,foreignpolicy.com,所有服务器
+  - DOMAIN-SUFFIX,freebrowser.org,所有服务器
+  - DOMAIN-SUFFIX,freewechat.com,所有服务器
+  - DOMAIN-SUFFIX,freeweibo.com,所有服务器
+  - DOMAIN-SUFFIX,friday.tw,所有服务器
+  - DOMAIN-SUFFIX,ftchinese.com,所有服务器
+  - DOMAIN-SUFFIX,ftimg.net,所有服务器
+  - DOMAIN-SUFFIX,gate.io,所有服务器
+  - DOMAIN-SUFFIX,getlantern.org,所有服务器
+  - DOMAIN-SUFFIX,getsync.com,所有服务器
+  - DOMAIN-SUFFIX,globalvoices.org,所有服务器
+  - DOMAIN-SUFFIX,goo.ne.jp,所有服务器
+  - DOMAIN-SUFFIX,goodreads.com,所有服务器
+  - DOMAIN-SUFFIX,gov,所有服务器
+  - DOMAIN-SUFFIX,gov.tw,所有服务器
+  - DOMAIN-SUFFIX,greatfire.org,所有服务器
+  - DOMAIN-SUFFIX,gumroad.com,所有服务器
+  - DOMAIN-SUFFIX,hbg.com,所有服务器
+  - DOMAIN-SUFFIX,heroku.com,所有服务器
+  - DOMAIN-SUFFIX,hightail.com,所有服务器
+  - DOMAIN-SUFFIX,hk01.com,所有服务器
+  - DOMAIN-SUFFIX,hkbf.org,所有服务器
+  - DOMAIN-SUFFIX,hkbookcity.com,所有服务器
+  - DOMAIN-SUFFIX,hkej.com,所有服务器
+  - DOMAIN-SUFFIX,hket.com,所有服务器
+  - DOMAIN-SUFFIX,hkgolden.com,所有服务器
+  - DOMAIN-SUFFIX,hootsuite.com,所有服务器
+  - DOMAIN-SUFFIX,hudson.org,所有服务器
+  - DOMAIN-SUFFIX,hyread.com.tw,所有服务器
+  - DOMAIN-SUFFIX,ibtimes.com,所有服务器
+  - DOMAIN-SUFFIX,i-cable.com,所有服务器
+  - DOMAIN-SUFFIX,icij.org,所有服务器
+  - DOMAIN-SUFFIX,icoco.com,所有服务器
+  - DOMAIN-SUFFIX,imgur.com,所有服务器
+  - DOMAIN-SUFFIX,initiummall.com,所有服务器
+  - DOMAIN-SUFFIX,insecam.org,所有服务器
+  - DOMAIN-SUFFIX,ipfs.io,所有服务器
+  - DOMAIN-SUFFIX,issuu.com,所有服务器
+  - DOMAIN-SUFFIX,istockphoto.com,所有服务器
+  - DOMAIN-SUFFIX,japantimes.co.jp,所有服务器
+  - DOMAIN-SUFFIX,jiji.com,所有服务器
+  - DOMAIN-SUFFIX,jinx.com,所有服务器
+  - DOMAIN-SUFFIX,jkforum.net,所有服务器
+  - DOMAIN-SUFFIX,joinmastodon.org,所有服务器
+  - DOMAIN-SUFFIX,justmysocks.net,所有服务器
+  - DOMAIN-SUFFIX,justpaste.it,所有服务器
+  - DOMAIN-SUFFIX,kakao.com,所有服务器
+  - DOMAIN-SUFFIX,kakaocorp.com,所有服务器
+  - DOMAIN-SUFFIX,kik.com,所有服务器
+  - DOMAIN-SUFFIX,kobo.com,所有服务器
+  - DOMAIN-SUFFIX,kobobooks.com,所有服务器
+  - DOMAIN-SUFFIX,kodingen.com,所有服务器
+  - DOMAIN-SUFFIX,lemonde.fr,所有服务器
+  - DOMAIN-SUFFIX,lepoint.fr,所有服务器
+  - DOMAIN-SUFFIX,lihkg.com,所有服务器
+  - DOMAIN-SUFFIX,listennotes.com,所有服务器
+  - DOMAIN-SUFFIX,livestream.com,所有服务器
+  - DOMAIN-SUFFIX,logmein.com,所有服务器
+  - DOMAIN-SUFFIX,mail.ru,所有服务器
+  - DOMAIN-SUFFIX,mailchimp.com,所有服务器
+  - DOMAIN-SUFFIX,marc.info,所有服务器
+  - DOMAIN-SUFFIX,matters.news,所有服务器
+  - DOMAIN-SUFFIX,maying.co,所有服务器
+  - DOMAIN-SUFFIX,medium.com,所有服务器
+  - DOMAIN-SUFFIX,mega.nz,所有服务器
+  - DOMAIN-SUFFIX,mil,所有服务器
+  - DOMAIN-SUFFIX,mingpao.com,所有服务器
+  - DOMAIN-SUFFIX,mobile01.com,所有服务器
+  - DOMAIN-SUFFIX,myspace.com,所有服务器
+  - DOMAIN-SUFFIX,myspacecdn.com,所有服务器
+  - DOMAIN-SUFFIX,nanyang.com,所有服务器
+  - DOMAIN-SUFFIX,naver.com,所有服务器
+  - DOMAIN-SUFFIX,neowin.net,所有服务器
+  - DOMAIN-SUFFIX,newstapa.org,所有服务器
+  - DOMAIN-SUFFIX,nexitally.com,所有服务器
+  - DOMAIN-SUFFIX,nhk.or.jp,所有服务器
+  - DOMAIN-SUFFIX,nicovideo.jp,所有服务器
+  - DOMAIN-SUFFIX,nii.ac.jp,所有服务器
+  - DOMAIN-SUFFIX,nikkei.com,所有服务器
+  - DOMAIN-SUFFIX,nofile.io,所有服务器
+  - DOMAIN-SUFFIX,now.com,所有服务器
+  - DOMAIN-SUFFIX,nrk.no,所有服务器
+  - DOMAIN-SUFFIX,nyt.com,所有服务器
+  - DOMAIN-SUFFIX,nytchina.com,所有服务器
+  - DOMAIN-SUFFIX,nytcn.me,所有服务器
+  - DOMAIN-SUFFIX,nytco.com,所有服务器
+  - DOMAIN-SUFFIX,nytimes.com,所有服务器
+  - DOMAIN-SUFFIX,nytimg.com,所有服务器
+  - DOMAIN-SUFFIX,nytlog.com,所有服务器
+  - DOMAIN-SUFFIX,nytstyle.com,所有服务器
+  - DOMAIN-SUFFIX,ok.ru,所有服务器
+  - DOMAIN-SUFFIX,okex.com,所有服务器
+  - DOMAIN-SUFFIX,on.cc,所有服务器
+  - DOMAIN-SUFFIX,orientaldaily.com.my,所有服务器
+  - DOMAIN-SUFFIX,overcast.fm,所有服务器
+  - DOMAIN-SUFFIX,paltalk.com,所有服务器
+  - DOMAIN-SUFFIX,pao-pao.net,所有服务器
+  - DOMAIN-SUFFIX,parsevideo.com,所有服务器
+  - DOMAIN-SUFFIX,pbxes.com,所有服务器
+  - DOMAIN-SUFFIX,pcdvd.com.tw,所有服务器
+  - DOMAIN-SUFFIX,pchome.com.tw,所有服务器
+  - DOMAIN-SUFFIX,pcloud.com,所有服务器
+  - DOMAIN-SUFFIX,picacomic.com,所有服务器
+  - DOMAIN-SUFFIX,pinimg.com,所有服务器
+  - DOMAIN-SUFFIX,pixiv.net,所有服务器
+  - DOMAIN-SUFFIX,player.fm,所有服务器
+  - DOMAIN-SUFFIX,plurk.com,所有服务器
+  - DOMAIN-SUFFIX,po18.tw,所有服务器
+  - DOMAIN-SUFFIX,potato.im,所有服务器
+  - DOMAIN-SUFFIX,potatso.com,所有服务器
+  - DOMAIN-SUFFIX,prism-break.org,所有服务器
+  - DOMAIN-SUFFIX,proxifier.com,所有服务器
+  - DOMAIN-SUFFIX,pt.im,所有服务器
+  - DOMAIN-SUFFIX,pts.org.tw,所有服务器
+  - DOMAIN-SUFFIX,pubu.com.tw,所有服务器
+  - DOMAIN-SUFFIX,pubu.tw,所有服务器
+  - DOMAIN-SUFFIX,pureapk.com,所有服务器
+  - DOMAIN-SUFFIX,quora.com,所有服务器
+  - DOMAIN-SUFFIX,quoracdn.net,所有服务器
+  - DOMAIN-SUFFIX,rakuten.co.jp,所有服务器
+  - DOMAIN-SUFFIX,readingtimes.com.tw,所有服务器
+  - DOMAIN-SUFFIX,readmoo.com,所有服务器
+  - DOMAIN-SUFFIX,redbubble.com,所有服务器
+  - DOMAIN-SUFFIX,reddit.com,所有服务器
+  - DOMAIN-SUFFIX,redditmedia.com,所有服务器
+  - DOMAIN-SUFFIX,resilio.com,所有服务器
+  - DOMAIN-SUFFIX,reuters.com,所有服务器
+  - DOMAIN-SUFFIX,reutersmedia.net,所有服务器
+  - DOMAIN-SUFFIX,rfi.fr,所有服务器
+  - DOMAIN-SUFFIX,rixcloud.com,所有服务器
+  - DOMAIN-SUFFIX,roadshow.hk,所有服务器
+  - DOMAIN-SUFFIX,scmp.com,所有服务器
+  - DOMAIN-SUFFIX,scribd.com,所有服务器
+  - DOMAIN-SUFFIX,seatguru.com,所有服务器
+  - DOMAIN-SUFFIX,shadowsocks.org,所有服务器
+  - DOMAIN-SUFFIX,shopee.tw,所有服务器
+  - DOMAIN-SUFFIX,slideshare.net,所有服务器
+  - DOMAIN-SUFFIX,softfamous.com,所有服务器
+  - DOMAIN-SUFFIX,soundcloud.com,所有服务器
+  - DOMAIN-SUFFIX,ssrcloud.org,所有服务器
+  - DOMAIN-SUFFIX,startpage.com,所有服务器
+  - DOMAIN-SUFFIX,steamcommunity.com,所有服务器
+  - DOMAIN-SUFFIX,steemit.com,所有服务器
+  - DOMAIN-SUFFIX,steemitwallet.com,所有服务器
+  - DOMAIN-SUFFIX,t66y.com,所有服务器
+  - DOMAIN-SUFFIX,tapatalk.com,所有服务器
+  - DOMAIN-SUFFIX,teco-hk.org,所有服务器
+  - DOMAIN-SUFFIX,teco-mo.org,所有服务器
+  - DOMAIN-SUFFIX,teddysun.com,所有服务器
+  - DOMAIN-SUFFIX,textnow.me,所有服务器
+  - DOMAIN-SUFFIX,theguardian.com,所有服务器
+  - DOMAIN-SUFFIX,theinitium.com,所有服务器
+  - DOMAIN-SUFFIX,thetvdb.com,所有服务器
+  - DOMAIN-SUFFIX,tineye.com,所有服务器
+  - DOMAIN-SUFFIX,torproject.org,所有服务器
+  - DOMAIN-SUFFIX,tumblr.com,所有服务器
+  - DOMAIN-SUFFIX,turbobit.net,所有服务器
+  - DOMAIN-SUFFIX,tutanota.com,所有服务器
+  - DOMAIN-SUFFIX,tvboxnow.com,所有服务器
+  - DOMAIN-SUFFIX,udn.com,所有服务器
+  - DOMAIN-SUFFIX,unseen.is,所有服务器
+  - DOMAIN-SUFFIX,upmedia.mg,所有服务器
+  - DOMAIN-SUFFIX,uptodown.com,所有服务器
+  - DOMAIN-SUFFIX,urbandictionary.com,所有服务器
+  - DOMAIN-SUFFIX,ustream.tv,所有服务器
+  - DOMAIN-SUFFIX,uwants.com,所有服务器
+  - DOMAIN-SUFFIX,v2ray.com,所有服务器
+  - DOMAIN-SUFFIX,viber.com,所有服务器
+  - DOMAIN-SUFFIX,videopress.com,所有服务器
+  - DOMAIN-SUFFIX,vimeo.com,所有服务器
+  - DOMAIN-SUFFIX,voachinese.com,所有服务器
+  - DOMAIN-SUFFIX,voanews.com,所有服务器
+  - DOMAIN-SUFFIX,voxer.com,所有服务器
+  - DOMAIN-SUFFIX,vzw.com,所有服务器
+  - DOMAIN-SUFFIX,w3schools.com,所有服务器
+  - DOMAIN-SUFFIX,washingtonpost.com,所有服务器
+  - DOMAIN-SUFFIX,wattpad.com,所有服务器
+  - DOMAIN-SUFFIX,whoer.net,所有服务器
+  - DOMAIN-SUFFIX,wikimapia.org,所有服务器
+  - DOMAIN-SUFFIX,wikipedia.org,所有服务器
+  - DOMAIN-SUFFIX,wikiquote.org,所有服务器
+  - DOMAIN-SUFFIX,wikiwand.com,所有服务器
+  - DOMAIN-SUFFIX,winudf.com,所有服务器
+  - DOMAIN-SUFFIX,wire.com,所有服务器
+  - DOMAIN-SUFFIX,wordpress.com,所有服务器
+  - DOMAIN-SUFFIX,workflow.is,所有服务器
+  - DOMAIN-SUFFIX,worldcat.org,所有服务器
+  - DOMAIN-SUFFIX,wsj.com,所有服务器
+  - DOMAIN-SUFFIX,wsj.net,所有服务器
+  - DOMAIN-SUFFIX,xhamster.com,所有服务器
+  - DOMAIN-SUFFIX,xn--90wwvt03e.com,所有服务器
+  - DOMAIN-SUFFIX,xn--i2ru8q2qg.com,所有服务器
+  - DOMAIN-SUFFIX,xnxx.com,所有服务器
+  - DOMAIN-SUFFIX,xvideos.com,所有服务器
+  - DOMAIN-SUFFIX,yahoo.com,所有服务器
+  - DOMAIN-SUFFIX,yandex.ru,所有服务器
+  - DOMAIN-SUFFIX,ycombinator.com,所有服务器
+  - DOMAIN-SUFFIX,yesasia.com,所有服务器
+  - DOMAIN-SUFFIX,yes-news.com,所有服务器
+  - DOMAIN-SUFFIX,yomiuri.co.jp,所有服务器
+  - DOMAIN-SUFFIX,you-get.org,所有服务器
+  - DOMAIN-SUFFIX,zaobao.com,所有服务器
+  - DOMAIN-SUFFIX,zb.com,所有服务器
+  - DOMAIN-SUFFIX,zello.com,所有服务器
+  - DOMAIN-SUFFIX,zeronet.io,所有服务器
+  - DOMAIN-SUFFIX,zoom.us,所有服务器
+  - DOMAIN-KEYWORD,github,所有服务器
+  - DOMAIN-KEYWORD,jav,所有服务器
+  - DOMAIN-KEYWORD,pinterest,所有服务器
+  - DOMAIN-KEYWORD,porn,所有服务器
+  - DOMAIN-KEYWORD,wikileaks,所有服务器
+  - DOMAIN-SUFFIX,apartmentratings.com,所有服务器
+  - DOMAIN-SUFFIX,apartments.com,所有服务器
+  - DOMAIN-SUFFIX,bankmobilevibe.com,所有服务器
+  - DOMAIN-SUFFIX,bing.com,所有服务器
+  - DOMAIN-SUFFIX,booktopia.com.au,所有服务器
+  - DOMAIN-SUFFIX,cccat.io,所有服务器
+  - DOMAIN-SUFFIX,centauro.com.br,所有服务器
+  - DOMAIN-SUFFIX,clearsurance.com,所有服务器
+  - DOMAIN-SUFFIX,costco.com,所有服务器
+  - DOMAIN-SUFFIX,crackle.com,所有服务器
+  - DOMAIN-SUFFIX,depositphotos.cn,所有服务器
+  - DOMAIN-SUFFIX,dish.com,所有服务器
+  - DOMAIN-SUFFIX,dmm.co.jp,所有服务器
+  - DOMAIN-SUFFIX,dmm.com,所有服务器
+  - DOMAIN-SUFFIX,dnvod.tv,所有服务器
+  - DOMAIN-SUFFIX,esurance.com,所有服务器
+  - DOMAIN-SUFFIX,extmatrix.com,所有服务器
+  - DOMAIN-SUFFIX,fastpic.ru,所有服务器
+  - DOMAIN-SUFFIX,flipboard.com,所有服务器
+  - DOMAIN-SUFFIX,fnac.be,所有服务器
+  - DOMAIN-SUFFIX,fnac.com,所有服务器
+  - DOMAIN-SUFFIX,funkyimg.com,所有服务器
+  - DOMAIN-SUFFIX,fxnetworks.com,所有服务器
+  - DOMAIN-SUFFIX,gettyimages.com,所有服务器
+  - DOMAIN-SUFFIX,go.com,所有服务器
+  - DOMAIN-SUFFIX,here.com,所有服务器
+  - DOMAIN-SUFFIX,jcpenney.com,所有服务器
+  - DOMAIN-SUFFIX,jiehua.tv,所有服务器
+  - DOMAIN-SUFFIX,mailfence.com,所有服务器
+  - DOMAIN-SUFFIX,nationwide.com,所有服务器
+  - DOMAIN-SUFFIX,nbc.com,所有服务器
+  - DOMAIN-SUFFIX,nexon.com,所有服务器
+  - DOMAIN-SUFFIX,nordstrom.com,所有服务器
+  - DOMAIN-SUFFIX,nordstromimage.com,所有服务器
+  - DOMAIN-SUFFIX,nordstromrack.com,所有服务器
+  - DOMAIN-SUFFIX,superpages.com,所有服务器
+  - DOMAIN-SUFFIX,target.com,所有服务器
+  - DOMAIN-SUFFIX,thinkgeek.com,所有服务器
+  - DOMAIN-SUFFIX,tracfone.com,所有服务器
+  - DOMAIN-SUFFIX,unity3d.com,所有服务器
+  - DOMAIN-SUFFIX,uploader.jp,所有服务器
+  - DOMAIN-SUFFIX,vevo.com,所有服务器
+  - DOMAIN-SUFFIX,viu.tv,所有服务器
+  - DOMAIN-SUFFIX,vk.com,所有服务器
+  - DOMAIN-SUFFIX,vsco.co,所有服务器
+  - DOMAIN-SUFFIX,xfinity.com,所有服务器
+  - DOMAIN-SUFFIX,zattoo.com,所有服务器
+  - DOMAIN,testflight.apple.com,所有服务器
+  - DOMAIN-SUFFIX,appsto.re,所有服务器
+  - DOMAIN,books.itunes.apple.com,所有服务器
+  - DOMAIN,hls.itunes.apple.com,所有服务器
+  - DOMAIN,apps.apple.com,所有服务器
+  - DOMAIN,itunes.apple.com,所有服务器
+  - DOMAIN,api-glb-sea.smoot.apple.com,所有服务器
+  - DOMAIN,lookup-api.apple.com,所有服务器
+  - DOMAIN-SUFFIX,abc.xyz,所有服务器
+  - DOMAIN-SUFFIX,android.com,所有服务器
+  - DOMAIN-SUFFIX,androidify.com,所有服务器
+  - DOMAIN-SUFFIX,dialogflow.com,所有服务器
+  - DOMAIN-SUFFIX,autodraw.com,所有服务器
+  - DOMAIN-SUFFIX,capitalg.com,所有服务器
+  - DOMAIN-SUFFIX,certificate-transparency.org,所有服务器
+  - DOMAIN-SUFFIX,chrome.com,所有服务器
+  - DOMAIN-SUFFIX,chromeexperiments.com,所有服务器
+  - DOMAIN-SUFFIX,chromestatus.com,所有服务器
+  - DOMAIN-SUFFIX,chromium.org,所有服务器
+  - DOMAIN-SUFFIX,creativelab5.com,所有服务器
+  - DOMAIN-SUFFIX,debug.com,所有服务器
+  - DOMAIN-SUFFIX,deepmind.com,所有服务器
+  - DOMAIN-SUFFIX,firebaseio.com,所有服务器
+  - DOMAIN-SUFFIX,getmdl.io,所有服务器
+  - DOMAIN-SUFFIX,ggpht.com,所有服务器
+  - DOMAIN-SUFFIX,gmail.com,所有服务器
+  - DOMAIN-SUFFIX,gmodules.com,所有服务器
+  - DOMAIN-SUFFIX,godoc.org,所有服务器
+  - DOMAIN-SUFFIX,golang.org,所有服务器
+  - DOMAIN-SUFFIX,gstatic.com,所有服务器
+  - DOMAIN-SUFFIX,gv.com,所有服务器
+  - DOMAIN-SUFFIX,gwtproject.org,所有服务器
+  - DOMAIN-SUFFIX,itasoftware.com,所有服务器
+  - DOMAIN-SUFFIX,madewithcode.com,所有服务器
+  - DOMAIN-SUFFIX,material.io,所有服务器
+  - DOMAIN-SUFFIX,polymer-project.org,所有服务器
+  - DOMAIN-SUFFIX,admin.recaptcha.net,所有服务器
+  - DOMAIN-SUFFIX,recaptcha.net,所有服务器
+  - DOMAIN-SUFFIX,shattered.io,所有服务器
+  - DOMAIN-SUFFIX,synergyse.com,所有服务器
+  - DOMAIN-SUFFIX,tensorflow.org,所有服务器
+  - DOMAIN-SUFFIX,tfhub.dev,所有服务器
+  - DOMAIN-SUFFIX,tiltbrush.com,所有服务器
+  - DOMAIN-SUFFIX,waveprotocol.org,所有服务器
+  - DOMAIN-SUFFIX,waymo.com,所有服务器
+  - DOMAIN-SUFFIX,webmproject.org,所有服务器
+  - DOMAIN-SUFFIX,webrtc.org,所有服务器
+  - DOMAIN-SUFFIX,whatbrowser.org,所有服务器
+  - DOMAIN-SUFFIX,widevine.com,所有服务器
+  - DOMAIN-SUFFIX,x.company,所有服务器
+  - DOMAIN-SUFFIX,youtu.be,所有服务器
+  - DOMAIN-SUFFIX,yt.be,所有服务器
+  - DOMAIN-SUFFIX,ytimg.com,所有服务器
+  - DOMAIN-SUFFIX,1drv.com,所有服务器
+  - DOMAIN-SUFFIX,1drv.ms,所有服务器
+  - DOMAIN-SUFFIX,blob.core.windows.net,所有服务器
+  - DOMAIN-SUFFIX,livefilestore.com,所有服务器
+  - DOMAIN-SUFFIX,onedrive.com,所有服务器
+  - DOMAIN-SUFFIX,storage.live.com,所有服务器
+  - DOMAIN-SUFFIX,storage.msn.com,所有服务器
+  - DOMAIN,oneclient.sfx.ms,所有服务器
+  - DOMAIN-SUFFIX,0rz.tw,所有服务器
+  - DOMAIN-SUFFIX,4bluestones.biz,所有服务器
+  - DOMAIN-SUFFIX,9bis.net,所有服务器
+  - DOMAIN-SUFFIX,allconnected.co,所有服务器
+  - DOMAIN-SUFFIX,aol.com,所有服务器
+  - DOMAIN-SUFFIX,bcc.com.tw,所有服务器
+  - DOMAIN-SUFFIX,bit.ly,所有服务器
+  - DOMAIN-SUFFIX,bitshare.com,所有服务器
+  - DOMAIN-SUFFIX,blog.jp,所有服务器
+  - DOMAIN-SUFFIX,blogimg.jp,所有服务器
+  - DOMAIN-SUFFIX,blogtd.org,所有服务器
+  - DOMAIN-SUFFIX,broadcast.co.nz,所有服务器
+  - DOMAIN-SUFFIX,camfrog.com,所有服务器
+  - DOMAIN-SUFFIX,cfos.de,所有服务器
+  - DOMAIN-SUFFIX,citypopulation.de,所有服务器
+  - DOMAIN-SUFFIX,cloudfront.net,所有服务器
+  - DOMAIN-SUFFIX,ctitv.com.tw,所有服务器
+  - DOMAIN-SUFFIX,cuhk.edu.hk,所有服务器
+  - DOMAIN-SUFFIX,cusu.hk,所有服务器
+  - DOMAIN-SUFFIX,discord.gg,所有服务器
+  - DOMAIN-SUFFIX,discuss.com.hk,所有服务器
+  - DOMAIN-SUFFIX,dropboxapi.com,所有服务器
+  - DOMAIN-SUFFIX,duolingo.cn,所有服务器
+  - DOMAIN-SUFFIX,edditstatic.com,所有服务器
+  - DOMAIN-SUFFIX,flickriver.com,所有服务器
+  - DOMAIN-SUFFIX,focustaiwan.tw,所有服务器
+  - DOMAIN-SUFFIX,free.fr,所有服务器
+  - DOMAIN-SUFFIX,gigacircle.com,所有服务器
+  - DOMAIN-SUFFIX,hk-pub.com,所有服务器
+  - DOMAIN-SUFFIX,hosting.co.uk,所有服务器
+  - DOMAIN-SUFFIX,hwcdn.net,所有服务器
+  - DOMAIN-SUFFIX,ifixit.com,所有服务器
+  - DOMAIN-SUFFIX,iphone4hongkong.com,所有服务器
+  - DOMAIN-SUFFIX,iphonetaiwan.org,所有服务器
+  - DOMAIN-SUFFIX,iptvbin.com,所有服务器
+  - DOMAIN-SUFFIX,linksalpha.com,所有服务器
+  - DOMAIN-SUFFIX,manyvids.com,所有服务器
+  - DOMAIN-SUFFIX,myactimes.com,所有服务器
+  - DOMAIN-SUFFIX,newsblur.com,所有服务器
+  - DOMAIN-SUFFIX,now.im,所有服务器
+  - DOMAIN-SUFFIX,nowe.com,所有服务器
+  - DOMAIN-SUFFIX,redditlist.com,所有服务器
+  - DOMAIN-SUFFIX,s3.amazonaws.com,所有服务器
+  - DOMAIN-SUFFIX,signal.org,所有服务器
+  - DOMAIN-SUFFIX,smartmailcloud.com,所有服务器
+  - DOMAIN-SUFFIX,sparknotes.com,所有服务器
+  - DOMAIN-SUFFIX,streetvoice.com,所有服务器
+  - DOMAIN-SUFFIX,supertop.co,所有服务器
+  - DOMAIN-SUFFIX,tv.com,所有服务器
+  - DOMAIN-SUFFIX,typepad.com,所有服务器
+  - DOMAIN-SUFFIX,udnbkk.com,所有服务器
+  - DOMAIN-SUFFIX,urbanairship.com,所有服务器
+  - DOMAIN-SUFFIX,whispersystems.org,所有服务器
+  - DOMAIN-SUFFIX,wikia.com,所有服务器
+  - DOMAIN-SUFFIX,wn.com,所有服务器
+  - DOMAIN-SUFFIX,wolframalpha.com,所有服务器
+  - DOMAIN-SUFFIX,x-art.com,所有服务器
+  - DOMAIN-SUFFIX,yimg.com,所有服务器
+  - DOMAIN,api.steampowered.com,所有服务器
+  - DOMAIN,store.steampowered.com,所有服务器
+
+  - DOMAIN-SUFFIX,local,DIRECT
+  - IP-CIDR,192.168.0.0/16,DIRECT,no-resolve
+  - IP-CIDR,10.0.0.0/8,DIRECT,no-resolve
+  - IP-CIDR,172.16.0.0/12,DIRECT,no-resolve
+  - IP-CIDR,127.0.0.0/8,DIRECT,no-resolve
+  - IP-CIDR,100.64.0.0/10,DIRECT,no-resolve
+  - IP-CIDR6,::1/128,DIRECT,no-resolve
+  - IP-CIDR6,fc00::/7,DIRECT,no-resolve
+  - IP-CIDR6,fe80::/10,DIRECT,no-resolve
+  - IP-CIDR6,fd00::/8,DIRECT,no-resolve
+  - DOMAIN,app.adjust.com,DIRECT
+  - DOMAIN-SUFFIX,googletraveladservices.com,DIRECT
+  - DOMAIN,dl.google.com,DIRECT
+  - DOMAIN,mtalk.google.com,DIRECT
+  - DOMAIN,livew.l.qq.com,DIRECT
+  - DOMAIN,vd.l.qq.com,DIRECT
+  - DOMAIN,analytics.strava.com,DIRECT
+  - DOMAIN,msg.umeng.com,DIRECT
+  - DOMAIN,msg.umengcloud.com,DIRECT
+  - DOMAIN-SUFFIX,qhres.com,DIRECT
+  - DOMAIN-SUFFIX,qhimg.com,DIRECT
+  - DOMAIN-SUFFIX,akadns.net,DIRECT
+  - DOMAIN-SUFFIX,alibaba.com,DIRECT
+  - DOMAIN-SUFFIX,alicdn.com,DIRECT
+  - DOMAIN-SUFFIX,alikunlun.com,DIRECT
+  - DOMAIN-SUFFIX,alipay.com,DIRECT
+  - DOMAIN-SUFFIX,amap.com,DIRECT
+  - DOMAIN-SUFFIX,autonavi.com,DIRECT
+  - DOMAIN-SUFFIX,dingtalk.com,DIRECT
+  - DOMAIN-SUFFIX,mxhichina.com,DIRECT
+  - DOMAIN-SUFFIX,soku.com,DIRECT
+  - DOMAIN-SUFFIX,taobao.com,DIRECT
+  - DOMAIN-SUFFIX,tmall.com,DIRECT
+  - DOMAIN-SUFFIX,tmall.hk,DIRECT
+  - DOMAIN-SUFFIX,ykimg.com,DIRECT
+  - DOMAIN-SUFFIX,youku.com,DIRECT
+  - DOMAIN-SUFFIX,xiami.com,DIRECT
+  - DOMAIN-SUFFIX,xiami.net,DIRECT
+  - DOMAIN-SUFFIX,aaplimg.com,DIRECT
+  - DOMAIN-SUFFIX,apple.co,DIRECT
+  - DOMAIN-SUFFIX,apple.com,DIRECT
+  - DOMAIN-SUFFIX,apple-cloudkit.com,DIRECT
+  - DOMAIN-SUFFIX,appstore.com,DIRECT
+  - DOMAIN-SUFFIX,cdn-apple.com,DIRECT
+  - DOMAIN-SUFFIX,crashlytics.com,DIRECT
+  - DOMAIN-SUFFIX,icloud.com,DIRECT
+  - DOMAIN-SUFFIX,icloud-content.com,DIRECT
+  - DOMAIN-SUFFIX,me.com,DIRECT
+  - DOMAIN-SUFFIX,mzstatic.com,DIRECT
+  - DOMAIN,www-cdn.icloud.com.akadns.net,DIRECT
+  - DOMAIN-SUFFIX,baidu.com,DIRECT
+  - DOMAIN-SUFFIX,baidubcr.com,DIRECT
+  - DOMAIN-SUFFIX,bdstatic.com,DIRECT
+  - DOMAIN-SUFFIX,yunjiasu-cdn.net,DIRECT
+  - DOMAIN-SUFFIX,acgvideo.com,DIRECT
+  - DOMAIN-SUFFIX,biliapi.com,DIRECT
+  - DOMAIN-SUFFIX,biliapi.net,DIRECT
+  - DOMAIN-SUFFIX,bilibili.com,DIRECT
+  - DOMAIN-SUFFIX,bilibili.tv,DIRECT
+  - DOMAIN-SUFFIX,hdslb.com,DIRECT
+  - DOMAIN-SUFFIX,blizzard.com,DIRECT
+  - DOMAIN-SUFFIX,battle.net,DIRECT
+  - DOMAIN,blzddist1-a.akamaihd.net,DIRECT
+  - DOMAIN-SUFFIX,feiliao.com,DIRECT
+  - DOMAIN-SUFFIX,pstatp.com,DIRECT
+  - DOMAIN-SUFFIX,snssdk.com,DIRECT
+  - DOMAIN-SUFFIX,iesdouyin.com,DIRECT
+  - DOMAIN-SUFFIX,toutiao.com,DIRECT
+  - DOMAIN-SUFFIX,cctv.com,DIRECT
+  - DOMAIN-SUFFIX,cctvpic.com,DIRECT
+  - DOMAIN-SUFFIX,livechina.com,DIRECT
+  - DOMAIN-SUFFIX,didialift.com,DIRECT
+  - DOMAIN-SUFFIX,didiglobal.com,DIRECT
+  - DOMAIN-SUFFIX,udache.com,DIRECT
+  - DOMAIN-SUFFIX,343480.com,DIRECT
+  - DOMAIN-SUFFIX,baduziyuan.com,DIRECT
+  - DOMAIN-SUFFIX,com-hs-hkdy.com,DIRECT
+  - DOMAIN-SUFFIX,czybjz.com,DIRECT
+  - DOMAIN-SUFFIX,dandanzan.com,DIRECT
+  - DOMAIN-SUFFIX,fjhps.com,DIRECT
+  - DOMAIN-SUFFIX,kuyunbo.club,DIRECT
+  - DOMAIN-SUFFIX,21cn.com,DIRECT
+  - DOMAIN-SUFFIX,hitv.com,DIRECT
+  - DOMAIN-SUFFIX,mgtv.com,DIRECT
+  - DOMAIN-SUFFIX,iqiyi.com,DIRECT
+  - DOMAIN-SUFFIX,iqiyipic.com,DIRECT
+  - DOMAIN-SUFFIX,71.am.com,DIRECT
+  - DOMAIN-SUFFIX,jd.com,DIRECT
+  - DOMAIN-SUFFIX,jd.hk,DIRECT
+  - DOMAIN-SUFFIX,jdpay.com,DIRECT
+  - DOMAIN-SUFFIX,360buyimg.com,DIRECT
+  - DOMAIN-SUFFIX,iciba.com,DIRECT
+  - DOMAIN-SUFFIX,ksosoft.com,DIRECT
+  - DOMAIN-SUFFIX,meitu.com,DIRECT
+  - DOMAIN-SUFFIX,meitudata.com,DIRECT
+  - DOMAIN-SUFFIX,meitustat.com,DIRECT
+  - DOMAIN-SUFFIX,meipai.com,DIRECT
+  - DOMAIN-SUFFIX,duokan.com,DIRECT
+  - DOMAIN-SUFFIX,mi-img.com,DIRECT
+  - DOMAIN-SUFFIX,miui.com,DIRECT
+  - DOMAIN-SUFFIX,miwifi.com,DIRECT
+  - DOMAIN-SUFFIX,xiaomi.com,DIRECT
+  - DOMAIN-SUFFIX,microsoft.com,DIRECT
+  - DOMAIN-SUFFIX,msecnd.net,DIRECT
+  - DOMAIN-SUFFIX,office365.com,DIRECT
+  - DOMAIN-SUFFIX,outlook.com,DIRECT
+  - DOMAIN-SUFFIX,s-microsoft.com,DIRECT
+  - DOMAIN-SUFFIX,visualstudio.com,DIRECT
+  - DOMAIN-SUFFIX,windows.com,DIRECT
+  - DOMAIN-SUFFIX,windowsupdate.com,DIRECT
+  - DOMAIN,officecdn-microsoft-com.akamaized.net,DIRECT
+  - DOMAIN-SUFFIX,163.com,DIRECT
+  - DOMAIN-SUFFIX,126.net,DIRECT
+  - DOMAIN-SUFFIX,127.net,DIRECT
+  - DOMAIN-SUFFIX,163yun.com,DIRECT
+  - DOMAIN-SUFFIX,lofter.com,DIRECT
+  - DOMAIN-SUFFIX,netease.com,DIRECT
+  - DOMAIN-SUFFIX,ydstatic.com,DIRECT
+  - DOMAIN-SUFFIX,sina.com,DIRECT
+  - DOMAIN-SUFFIX,weibo.com,DIRECT
+  - DOMAIN-SUFFIX,weibocdn.com,DIRECT
+  - DOMAIN-SUFFIX,sohu.com,DIRECT
+  - DOMAIN-SUFFIX,sohucs.com,DIRECT
+  - DOMAIN-SUFFIX,sohu-inc.com,DIRECT
+  - DOMAIN-SUFFIX,v-56.com,DIRECT
+  - DOMAIN-SUFFIX,sogo.com,DIRECT
+  - DOMAIN-SUFFIX,sogou.com,DIRECT
+  - DOMAIN-SUFFIX,sogoucdn.com,DIRECT
+  - DOMAIN-SUFFIX,steampowered.com,DIRECT
+  - DOMAIN-SUFFIX,steam-chat.com,DIRECT
+  - DOMAIN-SUFFIX,steamgames.com,DIRECT
+  - DOMAIN-SUFFIX,steamusercontent.com,DIRECT
+  - DOMAIN-SUFFIX,steamcontent.com,DIRECT
+  - DOMAIN-SUFFIX,steamstatic.com,DIRECT
+  - DOMAIN-SUFFIX,steamcdn-a.akamaihd.net,DIRECT
+  - DOMAIN-SUFFIX,steamstat.us,DIRECT
+  - DOMAIN-SUFFIX,gtimg.com,DIRECT
+  - DOMAIN-SUFFIX,idqqimg.com,DIRECT
+  - DOMAIN-SUFFIX,igamecj.com,DIRECT
+  - DOMAIN-SUFFIX,myapp.com,DIRECT
+  - DOMAIN-SUFFIX,myqcloud.com,DIRECT
+  - DOMAIN-SUFFIX,qq.com,DIRECT
+  - DOMAIN-SUFFIX,tencent.com,DIRECT
+  - DOMAIN-SUFFIX,tencent-cloud.net,DIRECT
+  - DOMAIN-SUFFIX,jstucdn.com,DIRECT
+  - DOMAIN-SUFFIX,zimuzu.io,DIRECT
+  - DOMAIN-SUFFIX,zimuzu.tv,DIRECT
+  - DOMAIN-SUFFIX,zmz2019.com,DIRECT
+  - DOMAIN-SUFFIX,zmzapi.com,DIRECT
+  - DOMAIN-SUFFIX,zmzapi.net,DIRECT
+  - DOMAIN-SUFFIX,zmzfile.com,DIRECT
+  - DOMAIN-SUFFIX,ccgslb.com,DIRECT
+  - DOMAIN-SUFFIX,ccgslb.net,DIRECT
+  - DOMAIN-SUFFIX,chinanetcenter.com,DIRECT
+  - DOMAIN-SUFFIX,meixincdn.com,DIRECT
+  - DOMAIN-SUFFIX,ourdvs.com,DIRECT
+  - DOMAIN-SUFFIX,staticdn.net,DIRECT
+  - DOMAIN-SUFFIX,wangsu.com,DIRECT
+  - DOMAIN-SUFFIX,ipip.net,DIRECT
+  - DOMAIN-SUFFIX,ip.la,DIRECT
+  - DOMAIN-SUFFIX,ip-cdn.com,DIRECT
+  - DOMAIN-SUFFIX,ipv6-test.com,DIRECT
+  - DOMAIN-SUFFIX,test-ipv6.com,DIRECT
+  - DOMAIN-SUFFIX,whatismyip.com,DIRECT
+  - DOMAIN-SUFFIX,netspeedtestmaster.com,DIRECT
+  - DOMAIN,speedtest.macpaw.com,DIRECT
+  - DOMAIN-SUFFIX,awesome-hd.me,DIRECT
+  - DOMAIN-SUFFIX,broadcasthe.net,DIRECT
+  - DOMAIN-SUFFIX,chdbits.co,DIRECT
+  - DOMAIN-SUFFIX,classix-unlimited.co.uk,DIRECT
+  - DOMAIN-SUFFIX,empornium.me,DIRECT
+  - DOMAIN-SUFFIX,gazellegames.net,DIRECT
+  - DOMAIN-SUFFIX,hdchina.org,DIRECT
+  - DOMAIN-SUFFIX,hdsky.me,DIRECT
+  - DOMAIN-SUFFIX,icetorrent.org,DIRECT
+  - DOMAIN-SUFFIX,jpopsuki.eu,DIRECT
+  - DOMAIN-SUFFIX,keepfrds.com,DIRECT
+  - DOMAIN-SUFFIX,madsrevolution.net,DIRECT
+  - DOMAIN-SUFFIX,m-team.cc,DIRECT
+  - DOMAIN-SUFFIX,nanyangpt.com,DIRECT
+  - DOMAIN-SUFFIX,ncore.cc,DIRECT
+  - DOMAIN-SUFFIX,open.cd,DIRECT
+  - DOMAIN-SUFFIX,ourbits.club,DIRECT
+  - DOMAIN-SUFFIX,passthepopcorn.me,DIRECT
+  - DOMAIN-SUFFIX,privatehd.to,DIRECT
+  - DOMAIN-SUFFIX,redacted.ch,DIRECT
+  - DOMAIN-SUFFIX,springsunday.net,DIRECT
+  - DOMAIN-SUFFIX,tjupt.org,DIRECT
+  - DOMAIN-SUFFIX,totheglory.im,DIRECT
+  - DOMAIN-SUFFIX,acm.org,DIRECT
+  - DOMAIN-SUFFIX,acs.org,DIRECT
+  - DOMAIN-SUFFIX,aip.org,DIRECT
+  - DOMAIN-SUFFIX,ams.org,DIRECT
+  - DOMAIN-SUFFIX,annualreviews.org,DIRECT
+  - DOMAIN-SUFFIX,aps.org,DIRECT
+  - DOMAIN-SUFFIX,ascelibrary.org,DIRECT
+  - DOMAIN-SUFFIX,asm.org,DIRECT
+  - DOMAIN-SUFFIX,asme.org,DIRECT
+  - DOMAIN-SUFFIX,astm.org,DIRECT
+  - DOMAIN-SUFFIX,bmj.com,DIRECT
+  - DOMAIN-SUFFIX,cambridge.org,DIRECT
+  - DOMAIN-SUFFIX,cas.org,DIRECT
+  - DOMAIN-SUFFIX,clarivate.com,DIRECT
+  - DOMAIN-SUFFIX,ebscohost.com,DIRECT
+  - DOMAIN-SUFFIX,emerald.com,DIRECT
+  - DOMAIN-SUFFIX,engineeringvillage.com,DIRECT
+  - DOMAIN-SUFFIX,icevirtuallibrary.com,DIRECT
+  - DOMAIN-SUFFIX,ieee.org,DIRECT
+  - DOMAIN-SUFFIX,imf.org,DIRECT
+  - DOMAIN-SUFFIX,iop.org,DIRECT
+  - DOMAIN-SUFFIX,jamanetwork.com,DIRECT
+  - DOMAIN-SUFFIX,jhu.edu,DIRECT
+  - DOMAIN-SUFFIX,jstor.org,DIRECT
+  - DOMAIN-SUFFIX,karger.com,DIRECT
+  - DOMAIN-SUFFIX,libguides.com,DIRECT
+  - DOMAIN-SUFFIX,madsrevolution.net,DIRECT
+  - DOMAIN-SUFFIX,mpg.de,DIRECT
+  - DOMAIN-SUFFIX,myilibrary.com,DIRECT
+  - DOMAIN-SUFFIX,nature.com,DIRECT
+  - DOMAIN-SUFFIX,oecd-ilibrary.org,DIRECT
+  - DOMAIN-SUFFIX,osapublishing.org,DIRECT
+  - DOMAIN-SUFFIX,oup.com,DIRECT
+  - DOMAIN-SUFFIX,ovid.com,DIRECT
+  - DOMAIN-SUFFIX,oxfordartonline.com,DIRECT
+  - DOMAIN-SUFFIX,oxfordbibliographies.com,DIRECT
+  - DOMAIN-SUFFIX,oxfordmusiconline.com,DIRECT
+  - DOMAIN-SUFFIX,pnas.org,DIRECT
+  - DOMAIN-SUFFIX,proquest.com,DIRECT
+  - DOMAIN-SUFFIX,rsc.org,DIRECT
+  - DOMAIN-SUFFIX,sagepub.com,DIRECT
+  - DOMAIN-SUFFIX,sciencedirect.com,DIRECT
+  - DOMAIN-SUFFIX,sciencemag.org,DIRECT
+  - DOMAIN-SUFFIX,scopus.com,DIRECT
+  - DOMAIN-SUFFIX,siam.org,DIRECT
+  - DOMAIN-SUFFIX,spiedigitallibrary.org,DIRECT
+  - DOMAIN-SUFFIX,springer.com,DIRECT
+  - DOMAIN-SUFFIX,springerlink.com,DIRECT
+  - DOMAIN-SUFFIX,tandfonline.com,DIRECT
+  - DOMAIN-SUFFIX,un.org,DIRECT
+  - DOMAIN-SUFFIX,uni-bielefeld.de,DIRECT
+  - DOMAIN-SUFFIX,webofknowledge.com,DIRECT
+  - DOMAIN-SUFFIX,westlaw.com,DIRECT
+  - DOMAIN-SUFFIX,wiley.com,DIRECT
+  - DOMAIN-SUFFIX,worldbank.org,DIRECT
+  - DOMAIN-SUFFIX,worldscientific.com,DIRECT
+  - DOMAIN-SUFFIX,cn,DIRECT
+  - DOMAIN-SUFFIX,360in.com,DIRECT
+  - DOMAIN-SUFFIX,51ym.me,DIRECT
+  - DOMAIN-SUFFIX,8686c.com,DIRECT
+  - DOMAIN-SUFFIX,abchina.com,DIRECT
+  - DOMAIN-SUFFIX,accuweather.com,DIRECT
+  - DOMAIN-SUFFIX,aicoinstorge.com,DIRECT
+  - DOMAIN-SUFFIX,air-matters.com,DIRECT
+  - DOMAIN-SUFFIX,air-matters.io,DIRECT
+  - DOMAIN-SUFFIX,aixifan.com,DIRECT
+  - DOMAIN-SUFFIX,amd.com,DIRECT
+  - DOMAIN-SUFFIX,b612.net,DIRECT
+  - DOMAIN-SUFFIX,bdatu.com,DIRECT
+  - DOMAIN-SUFFIX,beitaichufang.com,DIRECT
+  - DOMAIN-SUFFIX,bjango.com,DIRECT
+  - DOMAIN-SUFFIX,booking.com,DIRECT
+  - DOMAIN-SUFFIX,bstatic.com,DIRECT
+  - DOMAIN-SUFFIX,cailianpress.com,DIRECT
+  - DOMAIN-SUFFIX,camera360.com,DIRECT
+  - DOMAIN-SUFFIX,chinaso.com,DIRECT
+  - DOMAIN-SUFFIX,chua.pro,DIRECT
+  - DOMAIN-SUFFIX,chuimg.com,DIRECT
+  - DOMAIN-SUFFIX,chunyu.mobi,DIRECT
+  - DOMAIN-SUFFIX,chushou.tv,DIRECT
+  - DOMAIN-SUFFIX,cmbchina.com,DIRECT
+  - DOMAIN-SUFFIX,cmbimg.com,DIRECT
+  - DOMAIN-SUFFIX,ctrip.com,DIRECT
+  - DOMAIN-SUFFIX,dfcfw.com,DIRECT
+  - DOMAIN-SUFFIX,docschina.org,DIRECT
+  - DOMAIN-SUFFIX,douban.com,DIRECT
+  - DOMAIN-SUFFIX,doubanio.com,DIRECT
+  - DOMAIN-SUFFIX,douyu.com,DIRECT
+  - DOMAIN-SUFFIX,dxycdn.com,DIRECT
+  - DOMAIN-SUFFIX,dytt8.net,DIRECT
+  - DOMAIN-SUFFIX,eastmoney.com,DIRECT
+  - DOMAIN-SUFFIX,eudic.net,DIRECT
+  - DOMAIN-SUFFIX,feng.com,DIRECT
+  - DOMAIN-SUFFIX,fengkongcloud.com,DIRECT
+  - DOMAIN-SUFFIX,frdic.com,DIRECT
+  - DOMAIN-SUFFIX,futu5.com,DIRECT
+  - DOMAIN-SUFFIX,futunn.com,DIRECT
+  - DOMAIN-SUFFIX,gandi.net,DIRECT
+  - DOMAIN-SUFFIX,geilicdn.com,DIRECT
+  - DOMAIN-SUFFIX,getpricetag.com,DIRECT
+  - DOMAIN-SUFFIX,gifshow.com,DIRECT
+  - DOMAIN-SUFFIX,godic.net,DIRECT
+  - DOMAIN-SUFFIX,hicloud.com,DIRECT
+  - DOMAIN-SUFFIX,hongxiu.com,DIRECT
+  - DOMAIN-SUFFIX,hostbuf.com,DIRECT
+  - DOMAIN-SUFFIX,huxiucdn.com,DIRECT
+  - DOMAIN-SUFFIX,huya.com,DIRECT
+  - DOMAIN-SUFFIX,infinitynewtab.com,DIRECT
+  - DOMAIN-SUFFIX,ithome.com,DIRECT
+  - DOMAIN-SUFFIX,java.com,DIRECT
+  - DOMAIN-SUFFIX,jidian.im,DIRECT
+  - DOMAIN-SUFFIX,kaiyanapp.com,DIRECT
+  - DOMAIN-SUFFIX,kaspersky-labs.com,DIRECT
+  - DOMAIN-SUFFIX,keepcdn.com,DIRECT
+  - DOMAIN-SUFFIX,kkmh.com,DIRECT
+  - DOMAIN-SUFFIX,licdn.com,DIRECT
+  - DOMAIN-SUFFIX,linkedin.com,DIRECT
+  - DOMAIN-SUFFIX,loli.net,DIRECT
+  - DOMAIN-SUFFIX,luojilab.com,DIRECT
+  - DOMAIN-SUFFIX,maoyan.com,DIRECT
+  - DOMAIN-SUFFIX,maoyun.tv,DIRECT
+  - DOMAIN-SUFFIX,meituan.com,DIRECT
+  - DOMAIN-SUFFIX,meituan.net,DIRECT
+  - DOMAIN-SUFFIX,mobike.com,DIRECT
+  - DOMAIN-SUFFIX,moke.com,DIRECT
+  - DOMAIN-SUFFIX,mubu.com,DIRECT
+  - DOMAIN-SUFFIX,myzaker.com,DIRECT
+  - DOMAIN-SUFFIX,nim-lang-cn.org,DIRECT
+  - DOMAIN-SUFFIX,nvidia.com,DIRECT
+  - DOMAIN-SUFFIX,oracle.com,DIRECT
+  - DOMAIN-SUFFIX,paypal.com,DIRECT
+  - DOMAIN-SUFFIX,paypalobjects.com,DIRECT
+  - DOMAIN-SUFFIX,qdaily.com,DIRECT
+  - DOMAIN-SUFFIX,qidian.com,DIRECT
+  - DOMAIN-SUFFIX,qyer.com,DIRECT
+  - DOMAIN-SUFFIX,qyerstatic.com,DIRECT
+  - DOMAIN-SUFFIX,raychase.net,DIRECT
+  - DOMAIN-SUFFIX,ronghub.com,DIRECT
+  - DOMAIN-SUFFIX,ruguoapp.com,DIRECT
+  - DOMAIN-SUFFIX,s-reader.com,DIRECT
+  - DOMAIN-SUFFIX,sankuai.com,DIRECT
+  - DOMAIN-SUFFIX,scomper.me,DIRECT
+  - DOMAIN-SUFFIX,seafile.com,DIRECT
+  - DOMAIN-SUFFIX,sm.ms,DIRECT
+  - DOMAIN-SUFFIX,smzdm.com,DIRECT
+  - DOMAIN-SUFFIX,snapdrop.net,DIRECT
+  - DOMAIN-SUFFIX,snwx.com,DIRECT
+  - DOMAIN-SUFFIX,sspai.com,DIRECT
+  - DOMAIN-SUFFIX,takungpao.com,DIRECT
+  - DOMAIN-SUFFIX,teamviewer.com,DIRECT
+  - DOMAIN-SUFFIX,tianyancha.com,DIRECT
+  - DOMAIN-SUFFIX,udacity.com,DIRECT
+  - DOMAIN-SUFFIX,uning.com,DIRECT
+  - DOMAIN-SUFFIX,vmware.com,DIRECT
+  - DOMAIN-SUFFIX,weather.com,DIRECT
+  - DOMAIN-SUFFIX,weico.cc,DIRECT
+  - DOMAIN-SUFFIX,weidian.com,DIRECT
+  - DOMAIN-SUFFIX,xiachufang.com,DIRECT
+  - DOMAIN-SUFFIX,ximalaya.com,DIRECT
+  - DOMAIN-SUFFIX,xinhuanet.com,DIRECT
+  - DOMAIN-SUFFIX,xmcdn.com,DIRECT
+  - DOMAIN-SUFFIX,yangkeduo.com,DIRECT
+  - DOMAIN-SUFFIX,zhangzishi.cc,DIRECT
+  - DOMAIN-SUFFIX,zhihu.com,DIRECT
+  - DOMAIN-SUFFIX,zhimg.com,DIRECT
+  - DOMAIN-SUFFIX,zhuihd.com,DIRECT
+  - DOMAIN,download.jetbrains.com,DIRECT
+  - DOMAIN,images-cn.ssl-images-amazon.com,DIRECT
+  - IP-CIDR,119.28.28.28/32,DIRECT,no-resolve
+  - GEOIP,CN,DIRECT
+
+  - MATCH,所有服务器
